@@ -28,7 +28,7 @@ function Navbar() {
   return (
     <nav className="fixed left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4">
-        <a href="/" className="md:text-5xl text-2xl text-white font-semibold">
+        <a href="/" className="md:text-5xl text-2xl text-transparent font-semibold">
           LOGO
         </a>
 
