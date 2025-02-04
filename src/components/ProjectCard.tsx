@@ -1,5 +1,5 @@
-import React from 'react'
-import { CodeBracketIcon, EyeIcon } from "@heroicons/react/16/solid"
+// import React from 'react'
+import { CodeBracketIcon } from "@heroicons/react/16/solid"
 
 interface Props{
   title: string,
