@@ -85,9 +85,9 @@ const ProjectsSection = () => {
        <ProjectTag onClick={handleTagChange} name="Frontend" isSelected={tag === "Frontend"}/>
        <ProjectTag onClick={handleTagChange} name="Full Stack" isSelected={tag === "Full Stack"}/>
       </div>
-      <div className="grid md:grid-cols-2 gap-8 mdLgap-12">
+      <div className="grid md:grid-cols-2 gap-8 md:gap-12">
         {filteredProjects.map((project) => (
-          <motion.li variants={cardVariants} initial="initail" animate={isInView ? "animate" : "initial"}>
+          <motion.li variants={cardVariants} initial="initail" animate={isInView ? "animate" : "initial"} className="sm:h-[150px]">
           <ProjectCard
             key={project.id}
             title={project.title}
