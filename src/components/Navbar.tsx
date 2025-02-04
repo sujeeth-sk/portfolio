@@ -26,10 +26,10 @@ function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
+    <nav className="fixed left-0 right-0 z-10 bg-[#121212] bg-opacity-100 p-4">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4">
-        <a href="/" className="md:text-5xl text-2xl text-transparent font-semibold">
-          LOGO
+        <a href="/" className="md:text-4xl text-2xl text-white font-semibold">
+          SUJEETH
         </a>
 
         <div className="mobile-menu block md:hidden">

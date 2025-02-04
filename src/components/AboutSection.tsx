@@ -7,6 +7,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>NextJS</li>
         <li>NodeJS</li>
         <li>ExpressJS</li>
         <li>MongoDB</li>
@@ -23,6 +24,8 @@ const TAB_DATA = [
     content: (
       <ul>
         <li>VIT Vellore</li>
+        <li>B Tech IT</li>
+        <li>2022-2026</li>
       </ul>
     ),
   },
@@ -49,10 +52,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col">
           <h2 className="text-4xl font-bold text-white mb-4 ">About Me</h2>
           <p className="text-base lg:text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-            aliquam quis dolorem, iste sint dolor fuga quidem aut necessitatibus
-            voluptates sunt ipsa ullam perferendis minima! Ab enim at minus
-            iusto?
+          Full-stack developer proficient in building user-centric applications using modern web technologies. My skillset includes front-end development with TypeScript, JavaScript, HTML, CSS, Next.js, React.js, and Tailwind CSS, and back-end development with Node.js, Express.js, and MongoDB. I'm experienced with Git for version control and thrive in collaborative environments.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton

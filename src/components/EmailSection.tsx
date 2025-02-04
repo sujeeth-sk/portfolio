@@ -11,10 +11,10 @@ const EmailSection = () => {
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           I'm always open to new projects, collaborations or employment
-          opportunities. Let's connect! <br />
-          I'm currently looking for new opportunities, my inbox is always open.
+          opportunities. <br />
+          {/* I'm currently looking for new opportunities, my inbox is always open. */}
           Whether you have a question or just want to say hi, I'll try my best
-          to get back to you!
+          to get back to you! Let's connect! 
         </p>
         <div className="socials flex flex-row gap-2 ">
           <a href="https://github.com/sujeeth-sk" target="_blank">
