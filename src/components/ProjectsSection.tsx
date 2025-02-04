@@ -87,7 +87,7 @@ const ProjectsSection = () => {
       </div>
       <div className="grid md:grid-cols-2 gap-8 md:gap-12">
         {filteredProjects.map((project) => (
-          <motion.li variants={cardVariants} initial="initail" animate={isInView ? "animate" : "initial"} className="sm:h-[150px]">
+          <motion.li variants={cardVariants} initial="initail" animate={isInView ? "animate" : "initial"} className="sm:h-[200px] lg:[150px]">
           <ProjectCard
             key={project.id}
             title={project.title}
