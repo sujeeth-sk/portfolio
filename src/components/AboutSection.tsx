@@ -1,6 +1,6 @@
 import { useState, useTransition } from "react";
 import TabButton from "./TabButton";
-import dev from "../assets/21864184_6502421.svg"
+import dev from "../assets/laptop.svg"
 const TAB_DATA = [
   {
     title: "Skills",
