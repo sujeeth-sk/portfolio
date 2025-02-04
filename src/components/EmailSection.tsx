@@ -3,7 +3,7 @@ import LinkedinIcon from "../assets/linkedin-icon.svg";
 
 const EmailSection = () => {
   return (
-    <section className="grid grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
+    <section className="grid grid-cols-2 my-12 md:my-12 py-24 gap-4 relative" id="contact">
         <div className="h-72 w-72 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-purple-600 via-pink-600 to-blue-600 rounded-full z-0 blur-xl absolute top-1/3 -left-20 transform -translate-x-1/2 -translate-y-1/2"></div>
       {/* <div className="bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-purple-900 to-transparent opacity-30 rounded-full h-80 w-80 z-0 blur-xl absolute top-1/3 -left-20 transform -translate-x-1/2 -translate-y-1/2"></div> */}
       <div className="z-10">

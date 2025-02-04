@@ -32,17 +32,16 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-lg lg:text-xl mb-6">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            nostrum officia enim ipsa eum dolore quis quia vel totam voluptates.
+          Crafting seamless digital experiences. Bridging the gap between front-end brilliance and robust back-end architecture.
           </p>
-          <div>
+          {/* <div>
             <button className="px-6 py-3 w-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-full mr-4 bg-white hover:bg-slate-200 text-white">
               Hire Me
             </button>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white">
               Download SV
             </button>
-          </div>
+          </div> */}
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="col-span-5 place-self-center mt-4 lg:mt-0 ">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden">
